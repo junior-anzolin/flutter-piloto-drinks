@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="piloto_drinks"
+        android:label="Piloto Drinks"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
