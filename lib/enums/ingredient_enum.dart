@@ -1,5 +1,6 @@
 enum IngredientEnum {
   baseAlcoolica,
+  cachaca,
   vodka,
   fireball,
   chopp,
@@ -10,6 +11,7 @@ enum IngredientEnum {
   curacauBlue,
   sake,
   jagermaister,
+  vinho,
 
   licMacaVerde,
   licPessego,
@@ -33,10 +35,14 @@ enum IngredientEnum {
   xpAbacaxi,
   xpAcucar,
   xpGengibre,
+  xpAmora,
+  xpCramberry,
+  xpCoco,
+  xpMacaVerde,
+  xpLimaoSiciliano,
 
   scLaranja,
   scLimaoTaiti,
-  scLimaoSiciliano,
   scAbacaxi,
   purePessego,
   shrubMorangoAlecrim,
@@ -48,6 +54,7 @@ enum IngredientEnum {
   monsterKhaotic,
 
   aguaTonica,
+  aguaGas,
   sorveteCreme,
   cereja,
   leite,
@@ -56,10 +63,12 @@ enum IngredientEnum {
   limao,
   limaoSiciliano,
   abacaxi,
+  gengibre,
   hortela,
   maracuja,
   tangerina,
   sal,
+  banana,
 
   clChocolate,
   clCereja,

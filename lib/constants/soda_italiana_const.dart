@@ -48,7 +48,7 @@ List<Revenue> sodaItalianaData = [
     'Sem alcool',
     MethodPrepareEnum.mounted,
     [
-      Ingredient(IngredientEnum.scLimaoSiciliano, '50ml'),
+      Ingredient(IngredientEnum.xpLimaoSiciliano, '50ml'),
       Ingredient(IngredientEnum.limaoSiciliano, '2 rodelas'),
     ],
     'Colocar todos os ingredientes no copo (400ml) e completar com água com gás',

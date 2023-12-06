@@ -8,6 +8,8 @@ class Ingredient {
     switch (name) {
       case IngredientEnum.baseAlcoolica:
         return 'Base alcoolica';
+      case IngredientEnum.cachaca:
+        return 'Cachaça';
       case IngredientEnum.vodka:
         return 'Vodka';
       case IngredientEnum.fireball:
@@ -71,13 +73,21 @@ class Ingredient {
         return 'Xarope de Açucar';
       case IngredientEnum.xpGengibre:
         return 'Xarope de Gengibre';
+      case IngredientEnum.xpAmora:
+        return 'Xarope de Amora';
+      case IngredientEnum.xpCramberry:
+        return 'Xarope de Cramberry';
+      case IngredientEnum.xpCoco:
+        return 'Xarope de Côco';
+      case IngredientEnum.xpMacaVerde:
+        return 'Xarope de Maçã Verde';
+      case IngredientEnum.xpLimaoSiciliano:
+        return 'Xarope de Limão Siciliano';
 
       case IngredientEnum.scLaranja:
         return 'Suco de Laranja';
       case IngredientEnum.scLimaoTaiti:
         return 'Suco de Limão Taiti';
-      case IngredientEnum.scLimaoSiciliano:
-        return 'Suco de Limão Siciliano';
       case IngredientEnum.scAbacaxi:
         return 'Suco de Abacaxi';
       case IngredientEnum.purePessego:
@@ -98,6 +108,8 @@ class Ingredient {
 
       case IngredientEnum.aguaTonica:
         return 'Água Tônica';
+      case IngredientEnum.aguaGas:
+        return 'Água com Gás';
       case IngredientEnum.sorveteCreme:
         return 'Sorvete';
       case IngredientEnum.cereja:
@@ -114,6 +126,8 @@ class Ingredient {
         return 'Limão Siciliano';
       case IngredientEnum.abacaxi:
         return 'Abacaxi(s)';
+      case IngredientEnum.gengibre:
+        return 'Gengibre fresco';
       case IngredientEnum.hortela:
         return 'Hortelã(s)';
       case IngredientEnum.maracuja:
@@ -122,6 +136,8 @@ class Ingredient {
         return 'Tangerina';
       case IngredientEnum.sal:
         return 'Sal';
+      case IngredientEnum.banana:
+        return 'Banana';
 
       case IngredientEnum.clChocolate:
         return 'Calda de Chocolate';

@@ -16,6 +16,30 @@ List<Revenue> caipirinhasData = [
     'Na coqueteira, macerar o limão suavemente, adicionar gelo e os ingredientes, bater e servir no copo (400ml)',
   ),
   Revenue(
+    'Morango',
+    'Escolha do cliente',
+    MethodPrepareEnum.smoothie,
+    [
+      Ingredient(IngredientEnum.baseAlcoolica, '100ml'),
+      Ingredient(IngredientEnum.xpAcucar, '50ml'),
+      Ingredient(IngredientEnum.morango, '3un.'),
+    ],
+    'Na coqueteira, macerar os morangos, adicionar gelo e os ingredientes, bater e servir no copo (400ml)',
+  ),
+  Revenue(
+      'Banana',
+      'Escolha do cliente',
+      MethodPrepareEnum.blender,
+      [
+        Ingredient(IngredientEnum.baseAlcoolica, '100ml'),
+        Ingredient(IngredientEnum.xpAcucar, '50ml'),
+        Ingredient(IngredientEnum.banana, '1un.'),
+        Ingredient(IngredientEnum.scLimaoTaiti, '30ml'),
+      ],
+      'No liquidificador, adicionar gelo e os ingredientes, bater e servir no copo (400ml)',
+      garnish:
+          'Servir em uma taça grande com borda de limão com açucar e canela e fatias de banana com casca'),
+  Revenue(
     'Morango com Capim Santo',
     'Escolha do cliente',
     MethodPrepareEnum.smoothie,
@@ -60,6 +84,18 @@ List<Revenue> caipirinhasData = [
       Ingredient(IngredientEnum.tangerina, '1/2'),
     ],
     'Na coqueteira, macerar a tangerina, adicionar gelo e os ingredientes, bater e servir no copo (400ml)',
+  ),
+  Revenue(
+    'Pêssego e Baunilha',
+    'Escolha do cliente e Licor de Pêssego',
+    MethodPrepareEnum.smoothie,
+    [
+      Ingredient(IngredientEnum.baseAlcoolica, '75ml'),
+      Ingredient(IngredientEnum.licPessego, '25ml'),
+      Ingredient(IngredientEnum.scLimaoTaiti, '12ml'),
+      Ingredient(IngredientEnum.xpBaunilha, '12ml'),
+    ],
+    'Na coqueteira adicionar gelo e os ingredientes, bater bem e servir no copo (400ml)',
   ),
   Revenue(
     'Pêssego e Baunilha',
